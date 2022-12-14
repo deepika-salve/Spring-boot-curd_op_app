@@ -13,7 +13,7 @@ import com.yash.model.Employee;
 @Service
 public interface EmpService  {
 
-public Employee addEmp(@RequestBody Employee emp);
+public Employee addEmp(Employee emp);
 
 public List<Employee> getAllEmployee();
 public Employee getEmpById(int empid);
